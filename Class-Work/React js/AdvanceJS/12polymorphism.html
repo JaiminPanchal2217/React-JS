@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    Polymorphism: One name Multiple Form 
+
+    + 
+
+    11 + 12 
+    "11" + "12"
+
+    => 
+    <!--
+         same name same Para 
+
+         fun()
+         {
+            console.log("fun1")
+         }
+
+         fun()
+         {
+             console.log("fun2")
+         }
+    same name diff para
+ -->
+
+
+    <script>
+
+        class Polymorphism 
+        {
+            static fun()
+            {
+                console.log("fun1")
+            }
+            fun123()
+            {
+                console.log("fun1123")
+            }
+
+            
+        }
+
+        class XYZ extends Polymorphism
+        {
+            fun()
+            {
+                console.log("fun XYZ")
+            }
+        }
+
+        const ob = new XYZ;
+        ob.fun();
+        Polymorphism.fun();
+        ob.fun123();
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1 id="x">sdfsd</h1>
+
+
+
+    <script>
+
+        class Test 
+        {
+             y =12;
+
+             constructor(x)
+             {
+                console.log("THis is constructor..!" + x)
+             }
+
+              a = function Fun()
+              {
+                console.log("FUN....!")
+              }
+
+              b = function ()
+              {
+                console.log("anonymous function....!")
+              }
+
+              c =  () =>
+              {
+                console.log("Arrow function....!")
+              }
+
+              Fun()
+              {
+                console.log(" function....!")
+              }   
+              
+              static PrivateFunction()
+              {
+                console.log("Private...!");
+              }
+
+        }
+
+        const obj = new Test(123);
+        // obj.a();
+        // obj.b();
+        // obj.c();
+        // obj.Fun();
+        // Test.PrivateFunction();
+
+        console.log(obj.y);
+
+
+    </script>
+    
+</body>
+</html>

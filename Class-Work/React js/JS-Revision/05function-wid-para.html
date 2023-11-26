@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function t(a,b)
+    {
+        console.log("t fun..!" + a+ " " + b)
+    }
+
+        function Test(x)
+        {
+            console.log(x)
+            t(12,34)
+            t(12,34)
+            t(12,34)
+        }
+        Test(12)
+        Test("test")
+        Test(true)
+        Test({i:1,i1:2})
+        Test([1,"re",true,{i:1,i1:2}])
+        Test(t)
+
+    </script>
+</body>
+</html>
