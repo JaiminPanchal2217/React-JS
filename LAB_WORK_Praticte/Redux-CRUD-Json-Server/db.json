@@ -1,0 +1,16 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "category": "typicode",
+      "price": "12299"
+    },
+    {
+      "id": 2,
+      "name": "Tshirt ",
+      "price": "1250/-",
+      "category": "men"
+    }
+  ]
+}
