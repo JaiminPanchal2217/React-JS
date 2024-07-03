@@ -1,0 +1,23 @@
+{
+  "Employe": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "email": "typicode",
+      "phone": "99000"
+    },
+    {
+      "id": 2,
+      "name": "json-server33",
+      "email": "typicode33",
+      "phone": "999900089"
+    },
+    {
+      "id": "",
+      "name": "JAIMINKUMAR BHARATKUMAR PANCHAL",
+      "email": "jaiminpanchal229@gmail.com",
+      "phone": "08200092839",
+      "isActive": true
+    }
+  ]
+}
